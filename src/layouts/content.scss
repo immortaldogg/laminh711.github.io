@@ -2,8 +2,8 @@
 
 .content {
     min-height: calc(100vh - #{$top-bar-height} - #{$bottom-bar-height});
-    margin-top: $top-bar-height;
-    margin-bottom: $bottom-bar-height;
+    padding-top: $top-bar-height;
+    padding-bottom: $bottom-bar-height;
 	position: relative;
 	&__bg-img {
 		position: absolute !important;

@@ -1,13 +1,17 @@
 @import "../entries/common.scss";
 .index-page {
-	&__jumbo {
-		margin: 12rem 4rem;
-		margin-top: 12rem;
-		flex-basis: 50%;
+	min-height: calc(100vh - #{$bottom-bar-height} - #{$top-bar-height});
 
-		@media all and (max-width: 600px) {
-			margin: 3rem 1rem;
-			flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	&__jumbo {
+		padding: 1rem 4rem;
+		width: 50%;
+		@media all and (max-width: 900px) {
+			padding: 1rem;
+			width: 100%;
 		}
 	}
 	&__doggo {
