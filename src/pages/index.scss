@@ -1,7 +1,7 @@
 $fa-font-path: "../fontawesome/fonts" !default;
 @import "../fontawesome/scss/font-awesome.scss";
 @import "../entries/common.scss";
-.main-page {
+.index-page {
 	&__jumbo {
 		margin: 12rem 4rem;
 		margin-top: 12rem;
@@ -89,7 +89,7 @@ $fa-font-path: "../fontawesome/fonts" !default;
 	}
 	&__hobby {
 		p {
-			color: $secondary;
+			color: $secondary;			
 		}
 	}
 
