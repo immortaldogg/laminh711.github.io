@@ -12,7 +12,7 @@ export default function Main() {
 		query {
 			placeholderImage: file(relativePath: { eq: "doggo_.jpg" }) {
 				childImageSharp {
-					fluid(maxWidth: 300, quality: 90) {
+					fluid(maxWidth: 600, quality: 100) {
 						...GatsbyImageSharpFluid
 					}
 				}
