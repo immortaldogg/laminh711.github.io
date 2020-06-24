@@ -1,0 +1,24 @@
+@import "../entries/common.scss";
+
+.content {
+    min-height: calc(100vh - #{$top-bar-height} - #{$bottom-bar-height});
+    margin-top: $top-bar-height;
+    margin-bottom: $bottom-bar-height;
+	position: relative;
+	&__bg-img {
+		position: absolute !important;
+		height: 100%;
+		min-width: 100%;
+	}
+	&__mask {
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(#000, 0.5);
+	}
+	&__content {
+        position: relative;
+	}
+}

@@ -1,0 +1,20 @@
+@import "../entries/common.scss";
+.bottom-bar {
+    width: 100%;
+    background-color: $primary;
+    height: $bottom-bar-height;
+
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    &__cpr {
+        span {
+            font-size: 0.75rem;
+            color:$secondary;
+        }
+    }
+}

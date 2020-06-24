@@ -1,0 +1,10 @@
+@import "../entries/common.scss";
+.top-bar {
+    width: 100%;
+    height: $top-bar-height;
+    background-color: $primary;
+
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
