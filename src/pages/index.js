@@ -72,7 +72,7 @@ export default function Main() {
 							<a href="mailto:laminh711@gmail.com" target="_blank">
 								<FaEnvelope />
 							</a>
-							<a href="https://linkedin.com/laminh711" target="_blank">
+							<a href="https://linkedin.com/in/laminh711" target="_blank">
 								<FaLinkedinIn />
 							</a>
 							<a href="https://facebook.com/thelittlemozart7" target="_blank">
