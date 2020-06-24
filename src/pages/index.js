@@ -1,16 +1,18 @@
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import React from "react";
-import TopBar from "../layouts/TopBar";
+import { FaEnvelope, FaFacebookSquare, FaGithubSquare, FaGitlab, FaLinkedinIn } from "react-icons/fa";
 import BottomBar from "../layouts/BottomBar";
 import Content from "../layouts/Content";
+import TopBar from "../layouts/TopBar";
 import "./index.scss";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+
 export default function Main() {
 	const data = useStaticQuery(graphql`
 		query {
 			placeholderImage: file(relativePath: { eq: "doggo_.jpg" }) {
 				childImageSharp {
-					fluid(maxWidth: 300) {
+					fluid(maxWidth: 300, quality: 90) {
 						...GatsbyImageSharpFluid
 					}
 				}
@@ -61,19 +63,19 @@ export default function Main() {
 
 						<div className="index-page__contacts">
 							<a href="https://gitlab.com/laminh711" target="_blank">
-								<i class="fa fa-gitlab" aria-hidden="true"></i>
+								<FaGitlab />
 							</a>
 							<a href="https://github.com/laminh711" target="_blank">
-								<i class="fa fa-github-square" aria-hidden="true"></i>
+								<FaGithubSquare />
 							</a>
 							<a href="mailto:laminh711@gmail.com" target="_blank">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<FaEnvelope />
 							</a>
 							<a href="https://linkedin.com/laminh711" target="_blank">
-								<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								<FaLinkedinIn />
 							</a>
 							<a href="https://facebook.com/thelittlemozart7" target="_blank">
-								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+								<FaFacebookSquare />
 							</a>
 						</div>
 					</div>

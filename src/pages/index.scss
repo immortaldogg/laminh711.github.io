@@ -1,5 +1,3 @@
-$fa-font-path: "../fontawesome/fonts" !default;
-@import "../fontawesome/scss/font-awesome.scss";
 @import "../entries/common.scss";
 .index-page {
 	&__jumbo {
@@ -89,7 +87,7 @@ $fa-font-path: "../fontawesome/fonts" !default;
 	}
 	&__hobby {
 		p {
-			color: $secondary;			
+			color: $secondary;
 		}
 	}
 
@@ -97,7 +95,7 @@ $fa-font-path: "../fontawesome/fonts" !default;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		a i {
+		svg {
 			font-size: 1.75rem;
 			color: $secondary;
 			margin: 0.25rem 1rem;

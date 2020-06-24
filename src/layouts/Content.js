@@ -8,7 +8,7 @@ export default function Content(props) {
         query {
             placeholderImage: file(relativePath: { eq: "main-background.jpg" }) {
                 childImageSharp {
-                    fluid(maxWidth: 2000) {
+                    fluid(maxWidth: 2000, quality: 90) {
                         ...GatsbyImageSharpFluid
                     }
                 }
