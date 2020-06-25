@@ -37,7 +37,7 @@ export default function Main() {
 						</div>
 						<div className="index-page__headline">
 							<h4>
-								I'm a software developer, I have 1 year working experience in web development, have coded in ruby, C#, javascript and go, but I'm always open to
+								I'm a software developer, I have experience working in web development, specially with javascript(ReactJS) and other languages such as C# and go, but I'm always open to
 								learn anything else. I like creating assistant-tool web app like{" "}
 								<span>
 									<a href="https://rowl.club" target="_blank">
@@ -48,7 +48,7 @@ export default function Main() {
 							</h4>
 						</div>
 						<div className="index-page__intro">
-							<p>
+							{/* <p>
 								I'm making a blog at{" "}
 								<span>
 									<a href="/blog" target="_blank">
@@ -56,7 +56,7 @@ export default function Main() {
 									</a>{" "}
 								</span>
 								, the content will be focused on web-development in general. Any help would be appreciated!
-							</p>
+							</p> */}
 						</div>
 						<div className="index-page__hobby">
 							<p>Outside of programming, I enjoy football, guitar and video games.</p>
